@@ -5,16 +5,16 @@
 # printname()
 
 
-# def area():
-#     x=int(input("enter the value of side"))
-#     print("area of a square",x*x)
-# area()
+def area():
+    x=int(input("enter the value of side"))
+    print("area of a square",x*x)
+area()
 
-# def area():
-#     x=int(input("enter the value of side"))
-#     return x*x
-# output=area()
-# print("the area is",output)
+def area():
+    x=int(input("enter the value of side"))
+    return x*x
+output=area()
+print("the area is",output)
 
 def price():
     x=int(input("enter the delivery price of the product"))
@@ -23,4 +23,4 @@ def price():
     a=int(input("enter the discount of the product"))
     return x+y+z-a
 output=price()
-print("the area is",output)
+print("the price is",output)
