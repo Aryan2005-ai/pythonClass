@@ -13,8 +13,32 @@ import matplotlib.pyplot as plt
 # plt.show()
 
 
-x=np.array([90,75,80,65])
-plt.pie(x)
-plt.title("Grades")
+# x=np.array([90,75,80,65])
+# plt.pie(x)
+# plt.title("Grades")
+# name=["python","java","react","c"]
+# plt.legend(name)
+# plt.pie(x, labels = name)
+# plt.show()
 
+
+
+# years = [2019, 2020, 2021, 2022, 2023]
+# grades = [85, 88, 90, 87, 92]
+
+# plt.bar(years, grades, color='red')
+# plt.xlabel('Years')
+# plt.ylabel('Grades')
+# plt.title('Grades Over Years')
+# plt.show()
+
+
+
+years = [2019, 2020, 2021, 2022, 2023]
+grades = [85, 88, 90, 87, 92]
+
+plt.scatter(years, grades, color='red')
+plt.xlabel('Years')
+plt.ylabel('Grades')
+plt.title('Grades Over Years')
 plt.show()
